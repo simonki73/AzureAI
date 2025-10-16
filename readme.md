@@ -10,7 +10,6 @@ The repository is to share useful URL's about AI services within Azure/
     - Identify appropriate developer tools and SDKs for an AI project
     - Describe considerations for responsible AI
   - [ ] [Choose and deploy models from the model catalog in Azure AI Foundry portal](https://learn.microsoft.com/en-gb/training/modules/explore-models-azure-ai-studio/)
-  - [ ] [https://learn.microsoft.com/en-gb/training/modules/get-started-prompt-flow-ai-studio/](https://learn.microsoft.com/en-gb/training/modules/get-started-prompt-flow-ai-studio/)
   - [ ] [Develop an AI app with the Azure AI Foundry SDK](https://learn.microsoft.com/en-gb/training/modules/ai-foundry-sdk/)
   - [ ] [Get started with prompt flow to develop language model apps in the Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/get-started-prompt-flow-ai-studio/)
   - [ ] [https://learn.microsoft.com/en-gb/training/modules/build-copilot-ai-studio/](https://learn.microsoft.com/en-gb/training/modules/build-copilot-ai-studio/)
