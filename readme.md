@@ -18,10 +18,28 @@ The repository is to share useful URL's about AI services within Azure/
     - Use the Azure AI Foundry SDK to work with connections in projects.
     - Use the Azure AI Foundry SDK to develop an AI chat app.
   - [ ] [Get started with prompt flow to develop language model apps in the Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/get-started-prompt-flow-ai-studio/)
+    - Understand the development lifecycle when creating language model applications.
+    - Understand what a flow is in prompt flow.
+    - Explore the core components when working with prompt flow.
   - [ ] [Develop a RAG-based solution with your own data using Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/build-copilot-ai-studio/)
+    - Identify the need to ground your language model with Retrieval Augmented Generation (RAG)
+    - Index your data with Azure AI Search to make it searchable for language models
+    - Build an agent using RAG on your own data in the Azure AI Foundry portal
   - [ ] [Fine-tune a language model with Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/finetune-model-copilot-ai-studio/)
+    - Understand when to fine-tune a model.
+    - Prepare your data to fine-tune a chat completion model.
+    - Fine-tune a base model in the Azure AI Foundry portal.
   - [ ] [Implement a responsible generative AI solution in Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/)
-  - [ ] [Evaluate generative AI performance in Azure AI Foundry portal](https://learn.microsoft.com/en-gb/training/modules/evaluate-models-azure-ai-studio/https://learn.microsoft.com/en-gb/training/modules/evaluate-models-azure-ai-studio/)
+    - Describe an overall process for responsible generative AI solution development
+    - Identify and prioritize potential harms relevant to a generative AI solution
+    - Measure the presence of harms in a generative AI solution
+    - Mitigate harms in a generative AI solution
+    - Prepare to deploy and operate a generative AI solution responsibly
+  - [ ] [Evaluate generative AI performance in Azure AI Foundry portal](https://learn.microsoft.com/en-gb/training/modules/evaluate-models-azure-ai-studio/)
+    - Understand model benchmarks.
+    - Perform manual evaluations.
+    - Assess your generative AI apps with AI-assisted metrics.
+    - Configure evaluation flows in the Azure AI Foundry portal.
 - [ ] [What is Azure AI Foundry?](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry)
 - [ ] [Product Availability by Region](https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/table)
 - [ ] [Work with the Azure AI Foundry for Visual Studio Code extension (Preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/get-started-projects-vs-code) 
