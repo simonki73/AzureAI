@@ -1,5 +1,23 @@
 # About
-The repository is to share useful URL's about AI services within Azure/
+The repository is to share useful URL's about AI services within Azure.
+
+-[Develop AI agents on Azure](https://learn.microsoft.com/en-gb/training/paths/develop-ai-agents-on-azure/)
+  - [Get started with AI agent development on Azure](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/)
+    - Describe core concepts related to AI agents
+    - Describe options for agent development
+    - Create and test an agent in the Azure AI Foundry portal
+    [Options for agent development](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/3-agent-development)
+      Azure AI Foundry / OpenAI Assistants API/Microsoft Agent Framework/AutoGen/Microsoft 365 Agents SDK/Copilot Studio/ Copilot Studio Agent Builder
+
+  Explore AI Agent development
+    Upload a document and get an agent to answer questions about it
+    https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html
+
+    https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/5-exercise
+    
+        https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html
+
+
 
 - [Develop generative AI apps in Azure](https://learn.microsoft.com/en-gb/training/paths/create-custom-copilots-ai-studio/)
   - Learn how to build generative AI applications that use language models to chat with your users.
