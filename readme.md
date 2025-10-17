@@ -9,10 +9,9 @@ The repository is to share useful URL's about AI services within Azure.
     
    - [x] [Options for agent development](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/3-agent-development)
       Azure AI Foundry / OpenAI Assistants API/Microsoft Agent Framework/AutoGen/Microsoft 365 Agents SDK/Copilot Studio/ Copilot Studio Agent Builder
-
-    - [x] [Explore AI Agent development](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html)
+   - [x] [Exercise - Explore AI Agent development](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html)
     Upload a document and get an agent to answer questions about it
-
+  - [ ] [Develop an AI agent with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/)
 
     - https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/5-exercise
     - https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html
