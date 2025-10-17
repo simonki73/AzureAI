@@ -3,6 +3,7 @@ The repository is to share useful URL's about AI services within Azure.
 
 ## Develop AI agents on Azure
 - [ ] [Develop AI agents on Azure](https://learn.microsoft.com/en-gb/training/paths/develop-ai-agents-on-azure/)
+      The exercises for this module are here: https://microsoftlearning.github.io/mslearn-ai-agents/
   - [x] [Get started with AI agent development on Azure](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/)
     - Describe core concepts related to AI agents
     - Describe options for agent development
@@ -13,6 +14,7 @@ The repository is to share useful URL's about AI services within Azure.
      - [x] [Exercise - Explore AI Agent development](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html)
     Upload a document and get an agent to answer questions about it
   - [ ] [Develop an AI agent with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/)
+    - [ ][Exercise - Build an AI agent](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/5-exercise)
   - [ ] [Develop AI agents with the Azure AI Foundry extension in Visual Studio Code](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/)
     - Configure and deploy AI agents using the agent designer
     - Add tools and capabilities to extend your agents' functionality
@@ -24,12 +26,6 @@ The repository is to share useful URL's about AI services within Azure.
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
-
-### find where these belong
-- https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/
-- https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/5-exercise
-- https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html
-
 
 ## Develop generative AI apps in Azure
 
