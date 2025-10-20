@@ -26,7 +26,7 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] Prefined Bicep templates: https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.azure-ai-agent-service
     - [ ] Azure AI Foundry SDK client libraries(https://learn.microsoft.com/en-gb/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
     ### Exercises
-    - [ ] [Develop an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html) (Build an agent in Python that takes API calls)
+    - [x] [Develop an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html) (Build an agent in Python that takes API calls)
   - [ ] [Develop AI agents with the Azure AI Foundry extension in Visual Studio Code](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/)
     - Configure and deploy AI agents using the agent designer
     - Add tools and capabilities to extend your agents' functionality
