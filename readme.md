@@ -14,7 +14,19 @@ The repository is to share useful URL's about AI services within Azure.
      - [x] [Exercise - Explore AI Agent development](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html)
     Upload a document and get an agent to answer questions about it
   - [ ] [Develop an AI agent with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/)
-    - [ ][Exercise - Build an AI agent](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/5-exercise)
+    - Describe the purpose of AI agents
+    - Explain the key features of Foundry Agent Service
+    - Build an agent using the Foundry Agent Service
+    - Integrate an agent in the Foundry Agent Service into your own app
+    ### Notes
+    At a minimum, you need to create an Azure AI hub with an Azure AI project for your agent
+    ### References
+    - [ ] Model selection: Developers can choose from various Azure OpenAI models: 
+      - https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/model-region-support?tabs=global-standard#available-models
+    - [ ] Prefined Bicep templates: https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.azure-ai-agent-service
+    - [ ] Azure AI Foundry SDK client libraries(https://learn.microsoft.com/en-gb/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
+    ### Exercises
+    - [ ] [Develop an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html) (Build an agent in Python that takes API calls)
   - [ ] [Develop AI agents with the Azure AI Foundry extension in Visual Studio Code](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/)
     - Configure and deploy AI agents using the agent designer
     - Add tools and capabilities to extend your agents' functionality
