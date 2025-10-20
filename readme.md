@@ -16,7 +16,7 @@ The repository is to share useful URL's about AI services within Azure.
   - [ ] [Develop an AI agent with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-azure/)
     - Describe the purpose of AI agents
     - Explain the key features of Foundry Agent Service
-    - Build an agent using the Foundry Agent Service
+    - Build an agent using the Foundry Agent Service (python)
     - Integrate an agent in the Foundry Agent Service into your own app
     ### Notes
     At a minimum, you need to create an Azure AI hub with an Azure AI project for your agent
