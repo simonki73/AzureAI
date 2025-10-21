@@ -32,6 +32,30 @@ The repository is to share useful URL's about AI services within Azure.
     - Add tools and capabilities to extend your agents' functionality
     - Test agents using the integrated playground
     - Generate sample code to integrate agents into applications
+    ### Notes
+      You can install the Azure AI Foundry extension directly from the Visual Studio Code Marketplace:
+      - Select Extensions from the left pane, or press Ctrl+Shift+X.
+      - Search for and select Azure AI Foundry.
+
+      The typical workflow for using the Azure AI Foundry extension follows these steps:
+      - Install and configure the extension in Visual Studio Code
+      - Connect to your Azure AI Foundry project
+      - Create or import an AI agent using the designer
+      - Configure agent instructions and add necessary tools
+      - Test the agent using the integrated playground
+      - Iterate on the design based on test results
+      - Generate code for application integration
+
+    **Azure AI Foundry Agent Service**   is a managed service in Azure designed to provide a comprehensive framework for creating, managing, and deploying AI agents. 
+    ### Instruction examples
+    For a customer service agent, effective instructions might include:
+    - The agent's role and purpose
+    - Guidelines for handling different types of customer inquiries
+    - Escalation procedures for complex issues
+    - Tone and communication style preferences
+    ### Exercise ###
+    - [ ] [Develop an AI agent with VS Code extension](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/07-build-agent-in-vs-code.html)
+    In this exercise, you’ll use the Azure AI Foundry VS Code extension to create an agent that can use Model Context Protocol (MCP) server tools to access external data sources and APIs. The agent will be able to retrieve up-to-date information and interact with various services through MCP tools
   - [ ] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
   - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
   - [ ] [Integrate MCP Tools with Azure AI Agents](https://learn.microsoft.com/en-gb/training/modules/connect-agent-to-mcp-tools/)
