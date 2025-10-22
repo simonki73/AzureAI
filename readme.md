@@ -21,7 +21,7 @@ The repository is to share useful URL's about AI services within Azure.
     ### Notes
     At a minimum, you need to create an Azure AI hub with an Azure AI project for your agent
     ### References
-    - [ ] Model selection: Developers can choose from various Azure OpenAI models: 
+    - [x] Model selection: Developers can choose from various Azure OpenAI models AKA GPT ones: this page shows which regions support which models (useful if you try to create a project in Sweden Central but your policy blocks you). 
       - https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/model-region-support?tabs=global-standard#available-models
     - [ ] Prefined Bicep templates: https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.azure-ai-agent-service
     - [ ] Azure AI Foundry SDK client libraries(https://learn.microsoft.com/en-gb/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
@@ -54,7 +54,7 @@ The repository is to share useful URL's about AI services within Azure.
     - Escalation procedures for complex issues
     - Tone and communication style preferences
     ### Exercise ###
-    - [ ] [Develop an AI agent with VS Code extension](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/07-build-agent-in-vs-code.html)
+    - [x] [Develop an AI agent with VS Code extension](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/07-build-agent-in-vs-code.html)
     In this exercise, you’ll use the Azure AI Foundry VS Code extension to create an agent that can use Model Context Protocol (MCP) server tools to access external data sources and APIs. The agent will be able to retrieve up-to-date information and interact with various services through MCP tools
   - [ ] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
   - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
