@@ -23,7 +23,7 @@ The repository is to share useful URL's about AI services within Azure.
     ### References
     - [x] Model selection: Developers can choose from various Azure OpenAI models AKA GPT ones: this page shows which regions support which models (useful if you try to create a project in Sweden Central but your policy blocks you). 
       - https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/model-region-support?tabs=global-standard#available-models
-    - [ ] Prefined Bicep templates: https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.azure-ai-agent-service
+    - [x] Prefined Bicep templates: https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.azure-ai-agent-service
     - [ ] Azure AI Foundry SDK client libraries(https://learn.microsoft.com/en-gb/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
     ### Exercises
     - [x] [Develop an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html) (Build an agent in Python that takes API calls)
