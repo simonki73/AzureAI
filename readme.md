@@ -59,7 +59,7 @@ The repository is to share useful URL's about AI services within Azure.
     In this exercise, you’ll use the Azure AI Foundry VS Code extension to create an agent that can use Model Context Protocol (MCP) server tools to access external data sources and APIs. The agent will be able to retrieve up-to-date information and interact with various services through MCP tools
     ### Further reading ###
     - [ ] [Work with the Azure AI Foundry for Visual Studio Code extension (Preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/get-started-projects-vs-code/)
-  - [ ] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
+  - [x] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
     - Describe the benefits of using custom tools with your agent.
     - Explore the different options for custom tools.
     - Build an agent that integrates custom tools using the Azure AI Foundry Agent Service.
