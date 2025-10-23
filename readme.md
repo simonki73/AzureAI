@@ -28,7 +28,7 @@ The repository is to share useful URL's about AI services within Azure.
     **Note:** the Azure AI Foundry SDK client link above shows you how to connect using Python but there seem to be steps missing. Try following the steps in tutorial [Develop an AI agent with Azure AI Foundry Agent Service]
     ### Exercises
     - [x] [Develop an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html) (Build an agent in Python that takes API calls)
-  - [ ] [Develop AI agents with the Azure AI Foundry extension in Visual Studio Code](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/)
+  - [x] [Develop AI agents with the Azure AI Foundry extension in Visual Studio Code](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agents-vs-code/)
     - Configure and deploy AI agents using the agent designer
     - Add tools and capabilities to extend your agents' functionality
     - Test agents using the integrated playground
@@ -57,6 +57,8 @@ The repository is to share useful URL's about AI services within Azure.
     ### Exercise ###
     - [x] [Develop an AI agent with VS Code extension](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/07-build-agent-in-vs-code.html)
     In this exercise, you’ll use the Azure AI Foundry VS Code extension to create an agent that can use Model Context Protocol (MCP) server tools to access external data sources and APIs. The agent will be able to retrieve up-to-date information and interact with various services through MCP tools
+    ### Further reading ###
+    - [ ] [Work with the Azure AI Foundry for Visual Studio Code extension (Preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/get-started-projects-vs-code/)
   - [ ] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
   - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
   - [ ] [Integrate MCP Tools with Azure AI Agents](https://learn.microsoft.com/en-gb/training/modules/connect-agent-to-mcp-tools/)
