@@ -64,7 +64,7 @@ The repository is to share useful URL's about AI services within Azure.
     - Explore the different options for custom tools.
     - Build an agent that integrates custom tools using the Azure AI Foundry Agent Service.
     ### Exercise ###
-  - [x] [Use a custom function in an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html)
+    - [x] [Use a custom function in an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html)
     ### Further reading ###
     - [ ] [AI Agents for beginners tool use](https://github.com/microsoft/ai-agents-for-beginners/blob/main/04-tool-use/README.md)
     - [ ] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
