@@ -60,6 +60,16 @@ The repository is to share useful URL's about AI services within Azure.
     ### Further reading ###
     - [ ] [Work with the Azure AI Foundry for Visual Studio Code extension (Preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/get-started-projects-vs-code/)
   - [ ] [Integrate custom tools into your agent](https://learn.microsoft.com/en-gb/training/modules/build-agent-with-custom-tools/)
+    - Describe the benefits of using custom tools with your agent.
+    - Explore the different options for custom tools.
+    - Build an agent that integrates custom tools using the Azure AI Foundry Agent Service.
+    ### Exercise ###
+  - [x] [Use a custom function in an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html)
+    ### Further reading ###
+    - [ ] [AI Agents for beginners tool use](https://github.com/microsoft/ai-agents-for-beginners/blob/main/04-tool-use/README.md)
+    - [ ] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
+    - [ ] [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
+    - [ ] [OpenAPI Specification](https://swagger.io/specification/)
   - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
   - [ ] [Integrate MCP Tools with Azure AI Agents](https://learn.microsoft.com/en-gb/training/modules/connect-agent-to-mcp-tools/)
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
