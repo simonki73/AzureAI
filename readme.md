@@ -71,6 +71,33 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
     - [ ] [OpenAPI Specification](https://swagger.io/specification/)
   - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
+    - Describe how connected agents enable modular, collaborative workflows.
+    - Design a multi-agent solution by defining main agent tools and connected agent roles.
+    - Build and run a connected agent solution
+    ## Notes
+    ### Main agent responsibilities
+    The main agent acts as the orchestrator. It interprets the intent behind a request and determines which connected agent is best suited to handle it. The main agent is responsible for:
+
+    - Interpreting user input
+    - Selecting the appropriate connected agent
+    - Forwarding relevant context and instructions
+    - Aggregating or summarize results
+
+    ### Connected agent responsibilities
+
+    Connected agents designed to focus on a single domain of responsibility. A connected agent is responsible for:
+
+    - Completing a specific action based on a clear prompt
+    - Using tools (if needed) to complete their task
+    - Returning the results to the main agent
+    - Connected agents should be designed with a single responsibility in mind. This makes your system easier to debug, extend, and reuse.
+
+    ## Excerise
+    - [x] [Develop a multi-agent solution](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03b-build-multi-agent-solution.html)
+
+    ## Further reading
+    - [ ] [Azure AI Foundry SDK client libraries](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview)
+
   - [ ] [Integrate MCP Tools with Azure AI Agents](https://learn.microsoft.com/en-gb/training/modules/connect-agent-to-mcp-tools/)
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
