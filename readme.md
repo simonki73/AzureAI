@@ -70,7 +70,7 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
     - [ ] [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
     - [ ] [OpenAPI Specification](https://swagger.io/specification/)
-  - [ ] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
+  - [x] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
     - Describe how connected agents enable modular, collaborative workflows.
     - Design a multi-agent solution by defining main agent tools and connected agent roles.
     - Build and run a connected agent solution
