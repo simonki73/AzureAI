@@ -92,7 +92,7 @@ The repository is to share useful URL's about AI services within Azure.
     - Returning the results to the main agent
     - Connected agents should be designed with a single responsibility in mind. This makes your system easier to debug, extend, and reuse.
 
-    ## Excerise
+    ## Excercise
     - [x] [Develop a multi-agent solution](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03b-build-multi-agent-solution.html)
 
     ## Further reading
@@ -102,8 +102,8 @@ The repository is to share useful URL's about AI services within Azure.
     - Explain the roles of the MCP server and client in tool discovery and invocation.
     - Wrap MCP tools as asynchronous functions and register them with Azure AI agents.
     - Build an Azure AI agent that dynamically accesses and calls MCP tools during runtime.
-    ## Excerise
-    - [x][Exercise - Connect MCP tools to Azure AI Agents](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03c-use-agent-tools-with-mcp.html)
+    ## Excercise
+    - [x] [Exercise - Connect MCP tools to Azure AI Agents](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03c-use-agent-tools-with-mcp.html)
     ## Further reading
     - [ ] [Azure Open AI demos](https://github.com/retkowsky/Azure-AIGEN-demos/blob/main/Azure%20Agent%20Service/9%20Azure%20AI%20Agent%20service%20-%20MCP%20support.ipynb)
     - [ ] [Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
