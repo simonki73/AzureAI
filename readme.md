@@ -99,6 +99,17 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] [Azure AI Foundry SDK client libraries](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview)
 
   - [ ] [Integrate MCP Tools with Azure AI Agents](https://learn.microsoft.com/en-gb/training/modules/connect-agent-to-mcp-tools/)
+    - Explain the roles of the MCP server and client in tool discovery and invocation.
+    - Wrap MCP tools as asynchronous functions and register them with Azure AI agents.
+    - Build an Azure AI agent that dynamically accesses and calls MCP tools during runtime.
+    ## Excerise
+    - [x][Exercise - Connect MCP tools to Azure AI Agents](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03c-use-agent-tools-with-mcp.html)
+    ## Further reading
+    - [ ] [Azure Open AI demos](https://github.com/retkowsky/Azure-AIGEN-demos/blob/main/Azure%20Agent%20Service/9%20Azure%20AI%20Agent%20service%20-%20MCP%20support.ipynb)
+    - [ ] [Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
+    - [ ] [Model Context Protocol User Guide](https://modelcontextprotocol.io/introduction)
+    - [ ] [AI Agents MCP Integration](https://github.com/microsoft/ai-agents-for-beginners/tree/main/11-agentic-protocols)
+    - [ ][Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
