@@ -109,7 +109,7 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] [Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
     - [ ] [Model Context Protocol User Guide](https://modelcontextprotocol.io/introduction)
     - [ ] [AI Agents MCP Integration](https://github.com/microsoft/ai-agents-for-beginners/tree/main/11-agentic-protocols)
-    - [ ][Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
+    - [ ] [Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
