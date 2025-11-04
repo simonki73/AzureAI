@@ -66,7 +66,7 @@ The repository is to share useful URL's about AI services within Azure.
     ### Exercise ###
     - [x] [Use a custom function in an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html)
     ### Further reading ###
-    - [ ] [AI Agents for beginners tool use](https://github.com/microsoft/ai-agents-for-beginners/blob/main/04-tool-use/README.md)
+    - [x] [AI Agents for beginners tool use](https://github.com/microsoft/ai-agents-for-beginners/blob/main/04-tool-use/README.md)
     - [ ] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
     - [ ] [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
     - [ ] [OpenAPI Specification](https://swagger.io/specification/)
@@ -111,6 +111,44 @@ The repository is to share useful URL's about AI services within Azure.
     - [ ] [AI Agents MCP Integration](https://github.com/microsoft/ai-agents-for-beginners/tree/main/11-agentic-protocols)
     - [ ] [Connect to Model Context Protocol servers (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
   - [ ] [Develop an AI agent with Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/)
+    - Use Microsoft Agent Framework to connect to an Azure AI Foundry project
+    - Create Azure AI Foundry Agent Service agents using the Microsoft Agent Framework SDK
+    - Integrate plugin functions with your AI agent
+    ### Notes:
+      - [Add tools to Azure AI agent](https://learn.microsoft.com/en-gb/training/modules/develop-ai-agent-with-semantic-kernel/4-add-plugins-to-agent)
+      #### Custom function tools
+      When creating custom tools for your Azure AI Foundry Agent, you need to understand several key concepts:
+
+      ##### Function definition and annotations
+
+      Create your tool by defining a regular Python function with proper type annotations. Use Annotated and Field from Pydantic to provide detailed descriptions that help the AI understand the function's purpose and how to use its parameters. The more descriptive your annotations, the better the AI can understand when and how to call your function.
+
+      ##### Adding tools to your agent
+
+      Pass your custom functions to the ChatAgent during creation using the tools parameter. You can add a single function or a list of multiple functions. The framework automatically registers these functions and makes them available for the AI to call.
+
+      ##### Tool invocation through conversation
+
+      Once your tools are registered with the agent, you don't need to manually invoke them. Instead, ask the agent questions or give it tasks that would naturally require your tool's functionality. The AI automatically determines when to call your tools based on the conversation context and the tool descriptions you provided.
+
+      ##### Multiple tools and orchestration
+
+      You can add multiple tools to a single agent, and the AI automatically chooses which tool to use based on the user's request. The framework handles the orchestration, calling the appropriate functions and combining their results to provide a comprehensive response.
+
+      #### Best practices for tool development
+      *** Clear descriptions:*** Write clear, detailed descriptions for your functions and parameters to help the AI understand their purpose
+      ***Type annotations:*** Use proper Python type hints to specify expected input and output types
+      ***Error handling:*** Implement appropriate error handling in your tool functions to gracefully handle unexpected inputs
+      ***Return meaningful data:*** Ensure your functions return data that the AI can effectively use in its responses
+      ***Keep functions focused:*** Design each tool to handle a specific task rather than trying to do too many things in one function
+
+      ### Exercise - Develop an Azure AI agent with the Microsoft Agent Framework SDK
+      - [x] [Develop an Azure AI chat agent with the Microsoft Agent Framework SDK](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/04-semantic-kernel.html)
+
+      ### Further reading
+      Pydantic 
+
+
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
 
