@@ -67,7 +67,7 @@ The repository is to share useful URL's about AI services within Azure.
     - [x] [Use a custom function in an AI agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html)
     ### Further reading ###
     - [x] [AI Agents for beginners tool use](https://github.com/microsoft/ai-agents-for-beginners/blob/main/04-tool-use/README.md)
-    - [ ] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
+    - [x] [Azure AI Foundry Agent Service function calling](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/function-calling)
     - [ ] [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
     - [ ] [OpenAPI Specification](https://swagger.io/specification/)
   - [x] [Develop a multi-agent solution with Azure AI Foundry Agent Service](https://learn.microsoft.com/en-gb/training/modules/develop-multi-agent-azure-ai-foundry/)
