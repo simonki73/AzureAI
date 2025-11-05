@@ -146,10 +146,40 @@ The repository is to share useful URL's about AI services within Azure.
       - [x] [Develop an Azure AI chat agent with the Microsoft Agent Framework SDK](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/04-semantic-kernel.html)
 
       ### Further reading
-      Pydantic 
+        Pydantic 
 
-
+---
   - [ ] [Orchestrate a multi-agent solution using the Microsoft Agent Framework](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/)
+    - Build AI agents using the Microsoft Agent Framework SDK
+    - Understand how and when to use different orchestration patterns
+    - Develop multi-agent solutions
+
+    ### Notes
+    #### Supported orchestration patterns
+    Microsoft Agent Framework provides several orchestration patterns directly in the SDK, each offering a different approach to coordinating agents. These patterns are designed to be technology-agnostic so you can adapt them to your own domain and integrate them into your existing systems.
+
+    **Concurrent orchestration** - Broadcast the same task to multiple agents at once and collect their results independently. Useful for parallel analysis, independent subtasks, or ensemble decision making.
+    **Sequential orchestration** - Pass the output from one agent to the next in a fixed order. Ideal for step-by-step workflows, pipelines, and progressive refinement.
+    **Handoff orchestration** - Dynamically transfer control between agents based on context or rules. Great for escalation, fallback, and expert routing where one agent works at a time.
+    **Group chat orchestration** - Coordinate a shared conversation among multiple agents (and optionally a human), managed by a chat manager that chooses who speaks next. Best for brainstorming, collaborative problem solving, and building consensus.
+    **Magentic orchestration** - A manager-driven approach that plans, delegates, and adapts across specialized agents. Suited to complex, open-ended problems where the solution path evolves. 
+
+    ### A unified orchestration workflow
+    Regardless of which orchestration pattern you choose, the Microsoft Agent Framework SDK provides a consistent, developer-friendly interface for building and running them. The typical flow looks like this:
+
+    1. Define your agents and describe their capabilities.
+    2. Select and create an orchestration pattern, optionally adding a manager agent if needed.
+    3. Optionally configure callbacks or transforms for custom input and output handling.
+    4. Start a runtime to manage execution.
+    5. Invoke the orchestration with your task.
+    6. Retrieve results in an asynchronous, nonblocking way.
+
+    ### Orchestration patters and their pros and cons
+    - [Use concurrent orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/4-use-concurrent-orchestration)
+    - [Use sequential orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/5-use-sequential-orchestration)
+    - [Use group chat orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/6-use-group-chat-orchestration)
+    - [Use handoff orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/7-use-handoff-orchestration)
+---
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
 
 ## Develop generative AI apps in Azure
