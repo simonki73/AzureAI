@@ -179,6 +179,13 @@ The repository is to share useful URL's about AI services within Azure.
     - [Use sequential orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/5-use-sequential-orchestration)
     - [Use group chat orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/6-use-group-chat-orchestration)
     - [Use handoff orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/7-use-handoff-orchestration)
+    = [Use Magentic orchestration](https://learn.microsoft.com/en-gb/training/modules/orchestrate-semantic-kernel-multi-agent-solution/8-use-magentic-orchestration)
+
+    ### Exercise
+    - [ ] [Develop a multi-agent solution](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/05-agent-orchestration.html)
+      - The Summarizer agent will condense raw feedback into a short, neutral sentence.
+      - The Classifier agent will categorize the feedback as Positive, Negative, or a Feature request.
+      - Finally, the Recommended Action agent will recommend an appropriate follow-up step.
 ---
   - [ ] [Discover Azure AI Agents with A2A](https://learn.microsoft.com/en-gb/training/modules/discover-agents-with-a2a/)
 
